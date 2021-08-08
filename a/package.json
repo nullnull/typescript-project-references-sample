@@ -4,5 +4,8 @@
   "version": "1.0.0",
   "dependencies": {
     "googleapis": "^84.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13"
   }
 }
