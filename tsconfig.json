@@ -1,5 +1,8 @@
 {
   "files": [],
+  "compilerOptions": {
+    "disableSourceOfProjectReferenceRedirect": true
+  },
   "references": [
     { "path": "a" },
     { "path": "b" },
