@@ -1,5 +1,8 @@
 {
   "name": "@typescript-project-references-sample/a",
   "private": true,
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {
+    "googleapis": "^84.0.0"
+  }
 }
