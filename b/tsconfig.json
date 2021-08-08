@@ -1,7 +1,13 @@
 {
   "compilerOptions": {
     "outDir": "../dist/b",
+    "rootDir": ".",
     "composite": true,
     "types": []
-  }
+  },
+  "references": [
+    {
+      "path": "../a"
+    },
+  ]
 }
