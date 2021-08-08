@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "outDir": "../dist/c",
+    "composite": true
+  }
+}
