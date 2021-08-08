@@ -4,5 +4,11 @@
     "a",
     "b",
     "c"
-  ]
+  ],
+  "scripts": {
+    "build": "yarn run tsc -b -v --extendedDiagnostics --listFiles"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
