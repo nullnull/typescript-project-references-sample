@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "outDir": "../dist/a",
-    "composite": true
+    "composite": true,
+    "types": [
+      "node"
+    ]
   }
 }
