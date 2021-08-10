@@ -1,0 +1,13 @@
+{
+  "include": [
+    "a/**/*.ts",
+    "b/**/*.ts",
+    "c/**/*.ts",
+    "test/**/*.ts",
+  ],
+  "compilerOptions": {
+    "types": [
+      "jest"
+    ]
+  }
+}
