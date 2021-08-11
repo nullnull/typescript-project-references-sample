@@ -4,6 +4,8 @@
     "composite": true,
     "types": [
       "node"
-    ]
+    ],
+    "strictNullChecks": true,
+    "disableSourceOfProjectReferenceRedirect": true
   }
 }

@@ -4,8 +4,6 @@
     "disableSourceOfProjectReferenceRedirect": true
   },
   "references": [
-    { "path": "a" },
-    { "path": "b" },
-    { "path": "c" }
+    { "path": "b" }
   ]
 }

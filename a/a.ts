@@ -1,8 +1,16 @@
-import { calendar_v3, google } from 'googleapis'
+import Ajv, { JSONSchemaType } from 'ajv'
+
+const fooSchema: JSONSchemaType<number> = {
+  type: 'number',
+}
+
+const ajv = new Ajv({
+  verbose: true,
+})
+const validator = ajv.compile(fooSchema)
 
 export const valueA = 1
 
 export const functionA = () => {
-  const x = calendar_v3.Calendar
-  return x
+  return 1
 }
